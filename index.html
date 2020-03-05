@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOY LAB</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bevan|Bitter&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/8bd6418a57.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+    
+</head>
+<body data-spy="scroll" data-target="#navbarResponsive">
+<div class="wrapper">
+    <!-- Main Image-->
+    <div id="top" class="padding">
+    
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="https://toy-lab.work/" >TOY LAB</a>
+            <button class="navbar-toggler" type="button"
+                data-toggle="collapse"
+                data-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="#top">Top</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#greeting">Greeting</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#profile">Profile</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#service">Service</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#concept">Concept</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+    
+        <div id="slides" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li> 
+                <li data-target="#slides" data-slide-to="2"></li>  
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-dark active">
+                <img src="img/image_1.jpg">
+                <div class="carousel-caption">
+                    <h1 class="display-2">toy lab</h1>
+                    <h3>大阪を拠点にホームページ制作をしております</h3>
+                </div>
+                </div>
+                <div class="carousel-item carousel-dark">
+                <img src="img/image_2.jpg">
+                </div>
+                <div class="carousel-item">
+                <img src="img/image_3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Greeting-->
+    <div id="greeting" class="narrow padding offset">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>Greeting</h2>
+                <p class="translation">ご挨拶</p>
+                <div class="heading-underline"></div>
+                <p>当サイトをご覧いただき、ありがとうございます。</p>
+                <p>大阪を拠点にホームページ制作をしておりますTOY LABです。</p>
+                <p>宜しくお願いいたします。</p>
+            </div>
+        </div>
+    
+    </div>
+    
+    
+    <!-- Profile-->
+    <div id="profile" class="narrow padding offset">
+        <div class="row">
+            <div class="col-md-7 text-center">
+                <h2>Profile</h2>
+                <p class="translation">自己紹介</p>
+                <div class="heading-underline"></div>
+                <img src="img/image_4.jpg" alt="">
+                <p>フリーランスのwebエンジニアをしておりますトヨカワと申します。webエンジニア歴は３年です。培ってきたスキルに満足することなく、新しいことをどんどん学ぶことを続けております。</p>
+                <table class="table-bordered">
+                    <tbody>
+                    <tr>
+                    <th>名前</th>
+                    <td>トヨカワ　ユウキ</td>
+                    </tr>
+                    <tr>
+                    <th>生年月日
+                    </th>
+                    <td>1980年6月18日</td>
+                    </tr>
+                    <tr>
+                    <th>出身/在住</th>
+                    <td>大阪</td>
+                    </tr>
+                    <tr>
+                    <th>経歴</th>
+                    <td>
+                    
+                    ・関西学院大学社会学部卒<br>
+                    ・会社員（営業）<br>
+                    ・世界一周旅行 40ヵ国
+                    
+                    </td>
+                    </tr>
+                    <tr>
+                    <th>趣味</th>
+                    <td>読書、音楽鑑賞、旅行、美術鑑賞</td>
+                    </tr>
+                    <tr>
+                    <th>特技</th>
+                    <td>英語、中国語（現在、勉強中！）</td>
+                    </tr>
+                    </tbody>
+                    </table>
+            </div>
+        </div>
+    
+    </div>
+    
+    
+    <!-- Fixed Background-->
+    <div class="fixed-background"></div>
+    
+    <!-- Service-->
+    <div id="service">
+        <div class="container-fluid padding offset">
+            <div class="row">
+                <div class="col-md-12 text-center fadein">
+                    <h2>Service</h2>
+                    <p class="translation">できる事</p>
+                    <div class="heading-underline"></div>
+                </div>
+            </div>
+            <div class="row text-center padding">
+                <div class="col-md-4 fadein">
+                    <i class="fas fa-code fa-4x"></i>
+                    <h3>HTML / CSS</h3>
+                    <p>ホームページを制作するために必須となるマークアップ言語。コーディングの基本部分ですが、何事も「基本が一番大事」といわれるように、web制作においても最も重要な部分となります。</p>
+                </div>
+                <div class="col-md-4 fadein">
+                    <i class="fab fa-js-square fa-4x"></i>
+                    <h3>jQuery / JavaScript</h3>
+                    <p>動きのあるホームページを作るために必要なのがこの２つです。こちらのサイトでも下にスクロールすると、要素が動いているはこれらの言語を使っています。</p>
+                </div>
+                <div class="col-md-4 fadein">
+                    <i class="fas fa-bold fa-4x"></i>
+                    <h3>Bootstrap</h3>
+                    <p>webサイトを効率よく作るためのwebフレームワークです。レスポンシブ対応されているので、PC、タブレット、スマホの画面サイズに自動的に対応したホームページをつくることができます。</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4 fadein">
+                    <i class="fab fa-wordpress fa-4x"></i>
+                    <h3>Wordpress</h3>
+                    <p>WordPress(ワードプレス)でのホームページを約３年ほど運営しておりました。サイトの高速化やSEO対策となるプラグインを組み合わせて構築することができます。</p>
+                </div>
+                <div class="col-md-4 fadein">
+                    <i class="fas fa-sun fa-4x"></i>
+                    <h3>SEO対策</h3>
+                    <p>ホームページはただ作れば良いというわけではありません。どれだけ見た目が美しいホームページでも、狙った検索ワードで上位表示されないとまったく意味のないものになります。</p>
+                </div>
+                <div class="col-md-4 fadein">
+                    <i class="fas fa-pencil-alt fa-4x"></i>
+                    <h3 class="text-center">コピーライティング</h3>
+                    <p>人の心に突き刺さる言葉で、行動に駆り立てる文章作りをお作りしています。但し、事業熱を顧客により伝えるため、事業者様ご本人によるお言葉をお使いいただくことをお勧めいたします。</p>
+                </div>
+            </div>
+    
+        </div>
+    
+    </div>
+    
+    <!-- Concept-->
+    <div id="concept">
+        <div class="container-fluid padding offset">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Concept</h2>
+                    <p class="translation">心がけている事</p>
+                    <div class="heading-underline"></div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-7 order-md-2 bg-gray">
+                    <div class="inner-box">
+                        <p class="number">POINT 01</p>
+                        <h3>納期厳守</h3>
+                        <p>決められた納期は必ずお守りいたします。</p>
+                    </div>
+                </div>
+                <div class="img-container col-md-5">
+                    <img src="img/image_6.jpg" class="img-container_img" alt="">
+                </div>
+            </div>
+        
+            <div class="row mb-4">
+                <div class="col-md-7 bg-gray">
+                    <div class="inner-box">
+                        <p class="number">POINT 02</p>
+                        <h3>早いレスポンス</h3>
+                        <p>早ければ２,３時間以内、遅くとも24時間以内には必ず返信いたします。</p>
+                    </div>
+                </div>
+                <div class="img-container col-md-5">
+                    <img src="img/image_7.jpg" class="img-container_img" alt="">
+                </div>
+            </div>
+        
+            <div class="row mb-3">
+                <div class="col-md-7 order-md-2 bg-gray">
+                    <div class="inner-box">
+                        <p class="number">POINT 03</p>
+                        <h3>高品質</h3>
+                        <p>品質にこだわりを持ち、期待以上のものをお出しするように心がけております。</p>
+                    </div>
+                </div>
+                <div class="img-container col-md-5">
+                    <img src="img/image_8.jpg" class="img-container_img" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Copy-->
+    <div class="bg">
+        <div class="inner-box2">
+            <h2>webサイト制作はTOY LABにお任せください。</h2>
+        </div>
+    </div>
+    
+    <!-- Contact-->
+    <div id="contact" class="offset">
+        <div class="container-fluid padding">
+            <div class="row">
+                <div class="col-md-12 text-center fadein">
+                    <h2>Contact</h2>
+                    <p class="translation">お問い合わせ</p>
+                    <div class="heading-underline"></div>
+                </div>
+                <div class="contact-form fadein">
+                    <form method="post" action="mail.php">
+                        <div class="form-group">
+                            <input name="お名前"type="text" class="form-control" placeholder="お名前 *" required>
+                        </div>
+                        <div class="form-group">
+                        <input name="メールアドレス" type="email" class="form-control" placeholder="メールアドレス *" required>
+                        </div>
+                        <div class="form-group">
+                        <input name="ご要件" type="title" class="form-control" placeholder="ご要件">
+                        </div>
+                        <div class="form-group">
+                        <textarea name="メッセージ" class="form-control" rows="5" placeholder="お問合せ内容 *" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">送信</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer-->
+    <footer>
+        <div class="row justify-content-center text-center">
+            <div class="footer-contact col-md-5">
+                <p class="footer-head-line">ホームページ制作とWEBデザイン</p>
+                <p class="footer-brand">TOY LAB</p>
+                <p>Email: toyokawayuki0618@gmail.com<br>URL: toy-lab.work</p>
+            </div>
+    
+            <div class="col-12">
+                <hr class="socket">
+                <p>&copy; TOY LAB  All Rights Reserved.</p>
+            </div>
+        </div>
+    
+    </footer>
+</div>
+
+    <script>
+            $(function(){
+        $(window).scroll(function (){
+            $('.fadein').each(function(){
+                var elemPos = $(this).offset().top;
+                var scroll = $(window).scrollTop();
+                var windowHeight = $(window).height();
+                if (scroll > elemPos - windowHeight + 200){
+                    $(this).addClass('scrollin');
+                }
+            });
+        });
+    });
+    </script>
+
+    <script>
+        $('.img-container').waypoint(function(direction){
+        var activePoint = $(this.element);
+        //scroll down
+        if (direction === 'down') {
+            activePoint.addClass('active');
+        }
+        // else{
+        //     activePoint.removeClass('active');
+        // }
+    },{offset : '70%'});
+    
+    $('.inner-box').waypoint(function(direction){
+        var activePoint = $(this.element);
+        //scroll down
+        if (direction === 'down') {
+            activePoint.addClass('active');
+        }
+        // else{
+        //     activePoint.removeClass('active');
+        // }       
+    },{offset : '70%'});
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
